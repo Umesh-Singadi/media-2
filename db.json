@@ -1,5 +1,42 @@
 {
-  "users": [{ "id": 1, "name": "Umesh" }],
+  "users": [
+    {
+      "id": "5f6c",
+      "name": "Ignacio Okuneva"
+    },
+    {
+      "id": "9ace",
+      "name": "Wilbert Feil"
+    },
+    {
+      "id": "6cc3",
+      "name": "Raul Tromp"
+    },
+    {
+      "id": "db04",
+      "name": "Mr. Timothy Sanford Sr."
+    },
+    {
+      "id": "c4ca",
+      "name": "Brent Herzog"
+    },
+    {
+      "id": "b05d",
+      "name": "Samantha Dietrich Jr."
+    },
+    {
+      "id": "5fdb",
+      "name": "Dr. Brandi Rice"
+    },
+    {
+      "id": "203e",
+      "name": "Claude Bahringer"
+    },
+    {
+      "id": "b81c",
+      "name": "Julia Huels"
+    }
+  ],
   "albums": [],
   "photos": []
 }
