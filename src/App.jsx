@@ -1,8 +1,10 @@
+import UsersList from "./components/UsersList";
+
 function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Umesh</h1>
-    </>
+    <div className="container mx-auto">
+      <UsersList />
+    </div>
   );
 }
 

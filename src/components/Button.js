@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import className from "classnames";
 
 function Button({
