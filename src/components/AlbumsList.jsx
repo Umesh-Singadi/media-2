@@ -1,11 +1,12 @@
 /* eslint-disable react/prop-types */
-import { useFetchAlbumsQuery } from "../store";
+import { useFetchAlbumsQuery, useAddAlbumMutation } from "../store";
 import ExpandablePanel from "./ExpandablePanel";
-
+import Button from "./Button";
 import Skeleton from "./Skeleton";
 
 function AlbumsList({ user }) {
   const { data, error, isLoading } = useFetchAlbumsQuery(user);
+  const [addAlbum, results] = useAddAlbumMutation();
 
   let content;
   if (isLoading) {
@@ -25,8 +26,9 @@ function AlbumsList({ user }) {
 
   return (
     <div>
-      <div>
+      <div className="flex items-center justify-between">
         <div>Albums for {user.name}</div>
+        <Button onClick={() => addAlbum(user)}>Add Album</Button>
       </div>
       <div>{content}</div>
     </div>
