@@ -14,11 +14,11 @@ function UsersListItem({ user }) {
   const header = (
     <>
       <Button
-        className="mr-3"
+        className="mr-3 hover:bg-red-500 rounded-full p-4 "
         loading={isLoading}
         onClick={() => handleDeleteUser(user)}
       >
-        <GoTrashcan />
+        <GoTrashcan className="" />
       </Button>
       {error && <div>Error deleting user...</div>}
       {user.name}

@@ -1,14 +1,39 @@
 {
   "users": [
     {
-      "id": "1b71",
-      "name": "Leslie Mueller"
+      "id": "f744",
+      "name": "Greg Purdy"
     },
     {
-      "id": "b16c",
-      "name": "Jan Hyatt"
+      "id": "4a5a",
+      "name": "Toby Beier"
+    },
+    {
+      "id": "b25a",
+      "name": "Tiffany Goldner"
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "id": "12",
+      "userId": null,
+      "title": "Hello"
+    },
+    {
+      "id": "13",
+      "userId": "f744",
+      "title": "Hello"
+    },
+    {
+      "id": "14",
+      "userId": "f744",
+      "title": "Hello"
+    },
+    {
+      "id": "15",
+      "userId": "f744",
+      "title": "Hello"
+    }
+  ],
   "photos": []
 }

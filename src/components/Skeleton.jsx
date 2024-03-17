@@ -7,6 +7,7 @@ function Skeleton({ times, className }) {
     "bg-gray-200",
     "rounded",
     "mb-2.5",
+    "h-10 w-90% m-5",
     className
   );
   const innerClassNames = classNames(
