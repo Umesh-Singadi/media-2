@@ -3,12 +3,24 @@
     {
       "id": "6273",
       "name": "Charles Schuster"
-    },
-    {
-      "id": "50eb",
-      "name": "Michelle McKenzie III"
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "id": "ebb3",
+      "userId": "6273",
+      "title": "Small Steel Mouse"
+    },
+    {
+      "id": "784a",
+      "userId": "6273",
+      "title": "Bespoke Soft Soap"
+    },
+    {
+      "id": "5f44",
+      "userId": "6273",
+      "title": "Modern Fresh Hat"
+    }
+  ],
   "photos": []
 }
