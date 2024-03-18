@@ -1,40 +1,5 @@
 {
-  "users": [
-    {
-      "id": "131f",
-      "name": "Sherry Turner"
-    },
-    {
-      "id": "1055",
-      "name": "Cristina Christiansen"
-    }
-  ],
-  "albums": [
-    {
-      "id": "1c7c",
-      "userId": null,
-      "title": "Electronic Concrete Pizza"
-    },
-    {
-      "id": "1604",
-      "userId": null,
-      "title": "Sleek Bronze Gloves"
-    },
-    {
-      "id": "f264",
-      "userId": null,
-      "title": "Licensed Metal Pizza"
-    },
-    {
-      "id": "0799",
-      "userId": null,
-      "title": "Tasty Fresh Cheese"
-    },
-    {
-      "id": "e704",
-      "userId": null,
-      "title": "Handmade Soft Chair"
-    }
-  ],
+  "users": [],
+  "albums": [],
   "photos": []
 }
