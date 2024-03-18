@@ -5,6 +5,7 @@ import { GoTrashcan } from "react-icons/go";
 import { useThunk } from "../hooks/useThunk";
 import ExpandablePanel from "./ExpandablePanel";
 import AlbumsList from "./AlbumsList";
+
 function UsersListItem({ user }) {
   const [doDeleteUser, isLoading, error] = useThunk(deleteUser);
 
