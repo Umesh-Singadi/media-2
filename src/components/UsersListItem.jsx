@@ -14,7 +14,7 @@ function UsersListItem({ user }) {
   const header = (
     <>
       <Button
-        className="mr-3 hover:bg-red-500 rounded-full p-4 "
+        className="mr-3 hover:bg-red-500 rounded-full p-4"
         loading={isLoading}
         onClick={() => handleDeleteUser(user)}
       >
