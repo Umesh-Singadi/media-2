@@ -1,100 +1,14 @@
 {
   "users": [
     {
-      "id": "6d31",
-      "name": "Todd Keeling"
+      "id": "6273",
+      "name": "Charles Schuster"
     },
     {
-      "id": "ffd5",
-      "name": "Mrs. Vanessa Lindgren Sr."
+      "id": "50eb",
+      "name": "Michelle McKenzie III"
     }
   ],
-  "albums": [
-    {
-      "id": "12",
-      "userId": null,
-      "title": "Hello"
-    },
-    {
-      "id": "13",
-      "userId": null,
-      "title": "Hello"
-    },
-    {
-      "id": "14",
-      "userId": null,
-      "title": "Hello"
-    },
-    {
-      "id": "15",
-      "userId": null,
-      "title": "Hello"
-    },
-    {
-      "id": "7563",
-      "userId": null,
-      "title": "Incredible Metal Mouse"
-    },
-    {
-      "id": "5d10",
-      "userId": null,
-      "title": "Small Cotton Cheese"
-    },
-    {
-      "id": "f110",
-      "userId": null,
-      "title": "Handcrafted Metal Bike"
-    },
-    {
-      "id": "e560",
-      "userId": null,
-      "title": "Luxurious Bronze Ball"
-    },
-    {
-      "id": "1dff",
-      "userId": null,
-      "title": "Incredible Metal Salad"
-    },
-    {
-      "id": "a7b8",
-      "userId": null,
-      "title": "Generic Fresh Gloves"
-    },
-    {
-      "id": "3089",
-      "userId": null,
-      "title": "Handmade Fresh Chicken"
-    },
-    {
-      "id": "9f2b",
-      "userId": null,
-      "title": "Luxurious Granite Shoes"
-    },
-    {
-      "id": "995a",
-      "userId": null,
-      "title": "Electronic Wooden Tuna"
-    },
-    {
-      "id": "f003",
-      "userId": null,
-      "title": "Handmade Soft Tuna"
-    },
-    {
-      "id": "dcc3",
-      "userId": null,
-      "title": "Modern Concrete Car"
-    },
-    {
-      "id": "a4dd",
-      "userId": null,
-      "title": "Unbranded Frozen Soap"
-    },
-    {
-      "id": "9068",
-      "userId": "6d31",
-      "title": "Tasty Cotton Cheese"
-    }
-  ],
+  "albums": [],
   "photos": []
 }

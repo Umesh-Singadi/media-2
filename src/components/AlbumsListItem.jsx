@@ -2,19 +2,18 @@
 import ExpandablePanel from "./ExpandablePanel";
 import { GoTrashcan } from "react-icons/go";
 import Button from "./Button";
-import { useRemoveAlbumMutation } from "../store/apis/albumsApi";
+import { useRemoveAlbumMutation } from "../store";
 
 function AlbumsListItem({ album }) {
   const [removeAlbum, results] = useRemoveAlbumMutation();
-  function handleClick(album) {
+  function handleClick() {
     removeAlbum(album);
-    console.log(album);
   }
   const header = (
     <div className="flex items-center">
       <Button
         className="mr-3 hover:bg-red-500 rounded-full p-4"
-        onClick={() => handleClick(album)}
+        onClick={handleClick}
         loading={results.isLoading}
       >
         <GoTrashcan />
